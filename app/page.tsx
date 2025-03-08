@@ -118,9 +118,7 @@ export default function LegalPDFAnalyzer() {
             <Link href="#how-it-works" className="text-slate-600 hover:text-primary transition-colors">
               How It Works
             </Link>
-            <Link href="#" className="text-slate-600 hover:text-primary transition-colors">
-              Pricing
-            </Link>
+
             <Button variant="outline" size="sm">
               Sign In
             </Button>
@@ -159,12 +157,6 @@ export default function LegalPDFAnalyzer() {
                 Upload your legal documents, get instant summaries, and chat with AI to understand complex legal
                 language.
               </p>
-              <Alert className="max-w-3xl mx-auto bg-blue-50 border-blue-200">
-                <Info className="h-4 w-4 text-blue-500" />
-                <AlertDescription className="text-blue-700">
-                  Powered by Llama-3 via Groq API for accurate legal document analysis and chat.
-                </AlertDescription>
-              </Alert>
             </div>
 
             {/* Main Application */}
